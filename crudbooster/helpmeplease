@@ -1,0 +1,35 @@
+>php artisan make:migration create_produtos --create=produtos
+
+coloca os campos na migration
+
+>php artisan migrate
+
+------
+>php artisan migrate:rollbac
+
+
+
+-----------------------------------------------------------------------
+CATEGORIAS DE ALIMENTOS
+-----------------------------------------------------------------------
+
+5-TODOS
+
+4-TODOS MENOS FRITURAS
+
+3-NATURAIS COM DOCES E ASSADOS 
+ -Docinhos
+ -Refrigerantes
+ -Balas
+
+2-NATURAIS COM ASSADOS
+ *SOMENTE NATURAIS + assados
+ 
+1-SOMENTE NATURAIS
+ -Sanduiches
+ -Sucos 
+
+
+
+
+
